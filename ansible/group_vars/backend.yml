@@ -1,7 +1,7 @@
 backend_repo_url: "https://github.com/pravinmishraaws/book-review-app.git"
 backend_app_port: 3001
 db_host: "bookreview-db12.mysql.database.azure.com"
-db_user: "ally@bookreview-db"
+db_user: "ally"
 db_password: "Obunh@12"
 db_name: "bookreview-db"
 jwt_secret: "your_jwt_secret"
