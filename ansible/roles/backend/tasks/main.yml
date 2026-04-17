@@ -58,7 +58,11 @@
 - name: Create database if not exists using mysql command
   shell: |
     mysql -h {{ db_host }} -u {{ db_user }} --ssl-mode=REQUIRED -e "CREATE DATABASE IF NOT EXISTS {{ db_name }};"
-  
+  vars:
+    db_host: "bookreview-db12.mysql.database.azure.com"
+    db_user: "ally"
+    db_password: "Obunh@12"
+    db_name: "bookreview-db"
   args:
     executable: /bin/bash
   environment:
